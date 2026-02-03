@@ -1,0 +1,16 @@
+{
+  "name": "discord-nodejs-course",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "discord.js": "^14.20.0",
+    "dotenv": "^16.4.5",
+    "sqlite3": "^5.1.7"
+  }
+}

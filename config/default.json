@@ -1,0 +1,16 @@
+{
+  "prefix": "yami ",
+  "debug": true,
+  "limits": {
+    "maxMessageLength": 800,
+    "aiMaxInputLength": 600,
+    "perUserCooldownMs": 2500
+  },
+  "db": {
+    "path": "./data/bot.sqlite"
+  },
+  "ai": {
+    "model": "gemini-2.5-flash",
+    "systemPrompt": "You are a helpful assistant in a Discord server. Keep replies concise, safe, and friendly. Avoid medical or legal claims. If the user asks for secrets or personal data, refuse."
+  }
+}
